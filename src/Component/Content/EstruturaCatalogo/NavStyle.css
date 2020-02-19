@@ -1,0 +1,32 @@
+.top-bar {
+  color: antiquewhite;
+  background-color: rgba(47, 79, 99, 0.8);
+  border: 1.5px solid rgba(194, 143, 95, 0.8);
+  grid-column: 1/4;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.page-num,
+.page-cont {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.info-page {
+  justify-self: center;
+  align-self: center;
+}
+
+#prev-page {
+  color: antiquewhite;
+  justify-self: end;
+  align-self: center;
+  z-index: 0;
+}
+#next-page {
+  color: antiquewhite;
+  justify-self: start;
+  align-self: center;
+}
